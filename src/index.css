@@ -1,13 +1,37 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@font-face {
+  font-family: "CrimsonText";
+  src: local("CrimsonText"),
+    url(./assets/fonts/Crimson_Text/CrimsonText-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "CrimsonText-Bold";
+  src: local("CrimsonText-Bold"),
+    url(./assets/fonts/Crimson_Text/CrimsonText-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "CrimsonText-Bold";
+  src: local("CrimsonText-Bold"),
+    url(./assets/fonts/Crimson_Text/CrimsonText-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "GreatVibes";
+  src: local("GreatVibes"),
+    url(./assets/fonts/Great_Vibes/GreatVibes-Regular.ttf) format("truetype");
 }
